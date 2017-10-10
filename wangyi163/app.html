@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="wangyi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="swiper-3.4.0.min.css">
+</head>
+<body>
+
+
+<div ng-view class="warp_img"></div>
+<footer class="footer">
+    <div class="btn">
+        <a href="#/home">
+        <p> <span class="glyphicon glyphicon-list-alt"></span> </p>
+       新闻</a>
+    </div>
+    <div class="btn">
+        <a href="#/live">
+        <p> <span class="glyphicon glyphicon-play-circle"></span> </p>
+        直播</a> </div>
+    <div class="btn">
+        <a href="#/topic">
+        <p> <span class="glyphicon glyphicon-envelope"></span> </p>
+       话题</a> </div>
+</footer>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="home/controller.js"></script>
+<script src="live/controller.js"></script>
+<script src="topic/controller.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>

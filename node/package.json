@@ -1,0 +1,21 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "ejs": "",
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "jquery": "^3.1.1",
+    "mysql": ""
+  }
+}

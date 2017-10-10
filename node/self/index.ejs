@@ -1,0 +1,27 @@
+<% include header.ejs %>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <% rows.forEach(function (item) { %>
+            <div class="thumbnail">
+                <img src="<%= item.imgpath%>" alt="...">
+                <div class="caption">
+                    <h3><%= item.title%></h3>
+                    <p><%= item.content%></p>
+                    <p><a href="/detail/<%= item.id %>" class="btn btn-primary" role="button">查看详情</a></p>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+
+                <div class="caption">
+                    <h3>威尼斯赌场</h3>
+                    <p>午夜激情</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<% include footer.ejs %>

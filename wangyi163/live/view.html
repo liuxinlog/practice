@@ -1,0 +1,21 @@
+<div class="header_live">
+    <nav class="head_livetxt">
+        <div class="livetxt_head"><a href="">问吧</a></div>
+        <div class="livetxt_head"><a href="">话题 </a></div>
+        <div class="livetxt_head"> <a href="">关注</a></div>
+    </nav>
+</div>
+<div style="height: 80px;"></div>
+<div class="live_content" ng-repeat="aasd in liveList track by $index">
+    <img ng-src="{{aasd['image']}}" alt="">
+</div>
+<div ng-hide="liveBool">没了 还看什么看</div>
+
+<div class="spinner" ng-show="liveBool">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+</div>
+<div style="height: 60px;"></div>

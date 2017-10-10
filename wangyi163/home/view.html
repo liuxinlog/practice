@@ -1,0 +1,65 @@
+<div class="header">
+    <nav class="head">网易新闻</nav>
+
+</div>
+<div class="spinner" ng-show="animate">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+
+</div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img ng-src="{{list[0]['ads'][0]['imgsrc']}}" alt="...">
+            <div class="carousel-caption">
+                {{list[0]['ads'][0]['title']}}
+            </div>
+        </div>
+        <div class="item">
+            <img src="{{list[0]['ads'][1]['imgsrc']}}" alt="...">
+            <div class="carousel-caption">
+                {{list[0]['ads'][1]['title']}}
+            </div>
+        </div>
+        <div class="item">
+            <img src="{{list[0]['ads'][2]['imgsrc']}}" alt="...">
+            <div class="carousel-caption">
+                {{list[0]['ads'][2]['title']}}
+            </div>
+        </div>
+        <div class="item">
+            <img src="{{list[0]['ads'][3]['imgsrc']}}" alt="...">
+            <div class="carousel-caption">
+                {{list[0]['ads'][3]['title']}}
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<div class="container-fluid mid_txt" ng-repeat="a in list track by $index">
+    <div class="media">
+        <a class="media-left media-middle" href="#">
+            <img ng-src="{{a['img']}}" alt="..." style="width: 70px;height: 50px;">
+        </a>
+        <div class="media-body">
+            <h5 class="media-heading">{{a['title']}}</h5>
+
+        </div>
+    </div>
+</div>

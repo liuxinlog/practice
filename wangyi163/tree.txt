@@ -1,0 +1,343 @@
+|____.DS_Store
+|____.idea
+| |____modules.xml
+| |____wangyi163.iml
+| |____workspace.xml
+|____711.jpg
+|____app.css
+|____app.html
+|____app.js
+|____bower_components bower安装包
+| |____angular
+| | |____.bower.json
+| | |____angular-csp.css
+| | |____angular.js
+| | |____angular.min.js
+| | |____angular.min.js.gzip
+| | |____angular.min.js.map
+| | |____bower.json
+| | |____index.js
+| | |____LICENSE.md
+| | |____package.json
+| | |____README.md
+| |____angular-route
+| | |____.bower.json
+| | |____angular-route.js
+| | |____angular-route.min.js
+| | |____angular-route.min.js.map
+| | |____bower.json
+| | |____index.js
+| | |____LICENSE.md
+| | |____package.json
+| | |____README.md
+| |____angular-sanitize
+| | |____.bower.json
+| | |____angular-sanitize.js
+| | |____angular-sanitize.min.js
+| | |____angular-sanitize.min.js.map
+| | |____bower.json
+| | |____index.js
+| | |____LICENSE.md
+| | |____package.json
+| | |____README.md
+| |____bootstrap
+| | |____.bower.json
+| | |____bower.json
+| | |____CHANGELOG.md
+| | |____dist
+| | | |____css
+| | | | |____bootstrap-theme.css
+| | | | |____bootstrap-theme.css.map
+| | | | |____bootstrap-theme.min.css
+| | | | |____bootstrap-theme.min.css.map
+| | | | |____bootstrap.css
+| | | | |____bootstrap.css.map
+| | | | |____bootstrap.min.css
+| | | | |____bootstrap.min.css.map
+| | | |____fonts
+| | | | |____glyphicons-halflings-regular.eot
+| | | | |____glyphicons-halflings-regular.svg
+| | | | |____glyphicons-halflings-regular.ttf
+| | | | |____glyphicons-halflings-regular.woff
+| | | | |____glyphicons-halflings-regular.woff2
+| | | |____js
+| | | | |____bootstrap.js
+| | | | |____bootstrap.min.js
+| | | | |____npm.js
+| | |____fonts
+| | | |____glyphicons-halflings-regular.eot
+| | | |____glyphicons-halflings-regular.svg
+| | | |____glyphicons-halflings-regular.ttf
+| | | |____glyphicons-halflings-regular.woff
+| | | |____glyphicons-halflings-regular.woff2
+| | |____Gemfile
+| | |____Gemfile.lock
+| | |____grunt
+| | | |____.jshintrc
+| | | |____bs-commonjs-generator.js
+| | | |____bs-glyphicons-data-generator.js
+| | | |____bs-lessdoc-parser.js
+| | | |____bs-raw-files-generator.js
+| | | |____change-version.js
+| | | |____configBridge.json
+| | | |____npm-shrinkwrap.json
+| | | |____sauce_browsers.yml
+| | |____Gruntfile.js
+| | |____ISSUE_TEMPLATE.md
+| | |____js
+| | | |____.jscsrc
+| | | |____.jshintrc
+| | | |____affix.js
+| | | |____alert.js
+| | | |____button.js
+| | | |____carousel.js
+| | | |____collapse.js
+| | | |____dropdown.js
+| | | |____modal.js
+| | | |____popover.js
+| | | |____scrollspy.js
+| | | |____tab.js
+| | | |____tooltip.js
+| | | |____transition.js
+| | |____less
+| | | |____.csscomb.json
+| | | |____.csslintrc
+| | | |____alerts.less
+| | | |____badges.less
+| | | |____bootstrap.less
+| | | |____breadcrumbs.less
+| | | |____button-groups.less
+| | | |____buttons.less
+| | | |____carousel.less
+| | | |____close.less
+| | | |____code.less
+| | | |____component-animations.less
+| | | |____dropdowns.less
+| | | |____forms.less
+| | | |____glyphicons.less
+| | | |____grid.less
+| | | |____input-groups.less
+| | | |____jumbotron.less
+| | | |____labels.less
+| | | |____list-group.less
+| | | |____media.less
+| | | |____mixins
+| | | | |____alerts.less
+| | | | |____background-variant.less
+| | | | |____border-radius.less
+| | | | |____buttons.less
+| | | | |____center-block.less
+| | | | |____clearfix.less
+| | | | |____forms.less
+| | | | |____gradients.less
+| | | | |____grid-framework.less
+| | | | |____grid.less
+| | | | |____hide-text.less
+| | | | |____image.less
+| | | | |____labels.less
+| | | | |____list-group.less
+| | | | |____nav-divider.less
+| | | | |____nav-vertical-align.less
+| | | | |____opacity.less
+| | | | |____pagination.less
+| | | | |____panels.less
+| | | | |____progress-bar.less
+| | | | |____reset-filter.less
+| | | | |____reset-text.less
+| | | | |____resize.less
+| | | | |____responsive-visibility.less
+| | | | |____size.less
+| | | | |____tab-focus.less
+| | | | |____table-row.less
+| | | | |____text-emphasis.less
+| | | | |____text-overflow.less
+| | | | |____vendor-prefixes.less
+| | | |____mixins.less
+| | | |____modals.less
+| | | |____navbar.less
+| | | |____navs.less
+| | | |____normalize.less
+| | | |____pager.less
+| | | |____pagination.less
+| | | |____panels.less
+| | | |____popovers.less
+| | | |____print.less
+| | | |____progress-bars.less
+| | | |____responsive-embed.less
+| | | |____responsive-utilities.less
+| | | |____scaffolding.less
+| | | |____tables.less
+| | | |____theme.less
+| | | |____thumbnails.less
+| | | |____tooltip.less
+| | | |____type.less
+| | | |____utilities.less
+| | | |____variables.less
+| | | |____wells.less
+| | |____LICENSE
+| | |____nuget
+| | | |____bootstrap.less.nuspec
+| | | |____bootstrap.nuspec
+| | | |____MyGet.ps1
+| | |____package.js
+| | |____package.json
+| | |____README.md
+| |____jquery
+| | |____.bower.json
+| | |____AUTHORS.txt
+| | |____bower.json
+| | |____dist
+| | | |____core.js
+| | | |____jquery.js
+| | | |____jquery.min.js
+| | | |____jquery.min.map
+| | | |____jquery.slim.js
+| | | |____jquery.slim.min.js
+| | | |____jquery.slim.min.map
+| | |____external
+| | | |____sizzle
+| | | | |____dist
+| | | | | |____sizzle.js
+| | | | | |____sizzle.min.js
+| | | | | |____sizzle.min.map
+| | | | |____LICENSE.txt
+| | |____LICENSE.txt
+| | |____README.md
+| | |____src
+| | | |____.eslintrc.json
+| | | |____ajax
+| | | | |____jsonp.js
+| | | | |____load.js
+| | | | |____parseXML.js
+| | | | |____script.js
+| | | | |____var
+| | | | | |____location.js
+| | | | | |____nonce.js
+| | | | | |____rquery.js
+| | | | |____xhr.js
+| | | |____ajax.js
+| | | |____attributes
+| | | | |____attr.js
+| | | | |____classes.js
+| | | | |____prop.js
+| | | | |____support.js
+| | | | |____val.js
+| | | |____attributes.js
+| | | |____callbacks.js
+| | | |____core
+| | | | |____access.js
+| | | | |____DOMEval.js
+| | | | |____init.js
+| | | | |____parseHTML.js
+| | | | |____ready-no-deferred.js
+| | | | |____ready.js
+| | | | |____readyException.js
+| | | | |____stripAndCollapse.js
+| | | | |____support.js
+| | | | |____var
+| | | | | |____rsingleTag.js
+| | | |____core.js
+| | | |____css
+| | | | |____addGetHookIf.js
+| | | | |____adjustCSS.js
+| | | | |____curCSS.js
+| | | | |____hiddenVisibleSelectors.js
+| | | | |____showHide.js
+| | | | |____support.js
+| | | | |____var
+| | | | | |____cssExpand.js
+| | | | | |____getStyles.js
+| | | | | |____isHiddenWithinTree.js
+| | | | | |____rmargin.js
+| | | | | |____rnumnonpx.js
+| | | | | |____swap.js
+| | | |____css.js
+| | | |____data
+| | | | |____Data.js
+| | | | |____var
+| | | | | |____acceptData.js
+| | | | | |____dataPriv.js
+| | | | | |____dataUser.js
+| | | |____data.js
+| | | |____deferred
+| | | | |____exceptionHook.js
+| | | |____deferred.js
+| | | |____deprecated.js
+| | | |____dimensions.js
+| | | |____effects
+| | | | |____animatedSelector.js
+| | | | |____Tween.js
+| | | |____effects.js
+| | | |____event
+| | | | |____ajax.js
+| | | | |____alias.js
+| | | | |____focusin.js
+| | | | |____support.js
+| | | | |____trigger.js
+| | | |____event.js
+| | | |____exports
+| | | | |____amd.js
+| | | | |____global.js
+| | | |____jquery.js
+| | | |____manipulation
+| | | | |_____evalUrl.js
+| | | | |____buildFragment.js
+| | | | |____getAll.js
+| | | | |____setGlobalEval.js
+| | | | |____support.js
+| | | | |____var
+| | | | | |____rcheckableType.js
+| | | | | |____rscriptType.js
+| | | | | |____rtagName.js
+| | | | |____wrapMap.js
+| | | |____manipulation.js
+| | | |____offset.js
+| | | |____queue
+| | | | |____delay.js
+| | | |____queue.js
+| | | |____selector-native.js
+| | | |____selector-sizzle.js
+| | | |____selector.js
+| | | |____serialize.js
+| | | |____traversing
+| | | | |____findFilter.js
+| | | | |____var
+| | | | | |____dir.js
+| | | | | |____rneedsContext.js
+| | | | | |____siblings.js
+| | | |____traversing.js
+| | | |____var
+| | | | |____arr.js
+| | | | |____class2type.js
+| | | | |____concat.js
+| | | | |____document.js
+| | | | |____documentElement.js
+| | | | |____fnToString.js
+| | | | |____getProto.js
+| | | | |____hasOwn.js
+| | | | |____indexOf.js
+| | | | |____ObjectFunctionString.js
+| | | | |____pnum.js
+| | | | |____push.js
+| | | | |____rcssNum.js
+| | | | |____rnothtmlwhite.js
+| | | | |____slice.js
+| | | | |____support.js
+| | | | |____toString.js
+| | | |____wrap.js
+|____home          //home功能组件
+| |____controller.js
+| |____view.html
+|____jq_swiper.js
+|____jquery-2.2.3.min.js
+|____live       //直播功能组件
+| |____controller.js
+| |____view.html
+|____serv    //跨域请求网易数据
+| |____api.php
+|____swiper-3.4.0.jquery.min.js //轮播图插件
+|____swiper-3.4.0.min.css
+|____swiper和加载动画.html
+|____topic   //话题组件
+| |____controller.js
+| |____view.html

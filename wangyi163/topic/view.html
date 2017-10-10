@@ -1,0 +1,31 @@
+<div class="header_live" >
+    <nav class="head_livetxt">
+        <div class="livetxt_head"><a href="">问吧</a></div>
+        <div class="livetxt_head"><a href="">话题 </a></div>
+        <div class="livetxt_head"> <a href="">关注</a></div>
+    </nav>
+</div>
+<div style="width: 100%;height: 70px;"></div>
+<div ng-repeat="a in dis[0] track by $index" class="topic_content">
+    <div class="topic_content_head">
+        <img ng-src="{{a['headpicurl']}}" alt="" style="width: 70px;height: 70px;">
+    </div>
+    <div class="topic_content_title">
+        <p>{{a['name']}} | {{a['title']}} </p>
+    </div>
+
+    <img ng-src="{{a['picurl']}}" alt="" style="padding-top: 10px">
+    <h3>{{a["alias"]}}</h3>
+</div>
+
+<div class="spinner" ng-show="jiazaiani" >
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+
+</div>
+
+    <div ng-hide="jiazaiani"  class="end">臭不要脸的都让你看没了,还看!!</div>
+
