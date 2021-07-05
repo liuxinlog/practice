@@ -349,9 +349,12 @@
             if (score <= 1000) {
                 if (time % 22 == 0) {
                     var newEnemy = new Enemy();
-                    if (time % 371 == 0) {
+                    
+                    //371
+                    if (time % 30 == 0) {
                         newEnemy.change(2);
-                    } else if (time % 33 == 0) {
+                        //33
+                    } else if (time % 10 == 0) {
                         newEnemy.change(3);
                     }
                     enemys.push(newEnemy);
